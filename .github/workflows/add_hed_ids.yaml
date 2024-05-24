@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: Check if original repository
       run: |
-        if [ "${{ github.ref_name }}" != "provisional" ]; then
+        if [ "${{ github.head_ref }}" != "provisional" ]; then
             echo "This workflow only runs from the 'provisional' branch."
             exit 1  # Exit with failure to halt the workflow
         fi
