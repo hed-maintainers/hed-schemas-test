@@ -1,6 +1,6 @@
 Differences between 8.2.0 and from_strings
 Attributes:
-	hedId (Minor): Item hedId added to Attributes
+	hedId (Minor): Item hedId added to  Attributes
 	isPartOf (Minor): Item isPartOf added to Attributes
 	allowedCharacter (Patch): Attribute 'unitDomain' modified from 'None' to 'True'
 	allowedCharacter (Patch): Attribute 'hedId' modified from 'None' to 'HED_0010304'
