@@ -59,7 +59,7 @@ jobs:
       env:
         ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
       run: |
-          hed_update_schemas $ALL_CHANGED_FILES
+          hed_update_schemas $ALL_CHANGED_FILES --set-ids
 
     - name: Check for changes
       id: check-changes
