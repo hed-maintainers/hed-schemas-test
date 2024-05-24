@@ -75,6 +75,7 @@ jobs:
       run: |
         git add .
         git commit -m "Automatic file updates"
-        git push  
+        git push origin HEAD:refs/heads/${{ github.head_ref }}
+
 
 

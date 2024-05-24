@@ -52,6 +52,6 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "Automated schema changes"
-            git push  
+            git push origin HEAD:refs/heads/${{ github.head_ref }}
           fi
           
